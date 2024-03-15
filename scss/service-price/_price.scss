@@ -1,0 +1,125 @@
+.money{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 26px;
+    margin-top: 50px;
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+}
+
+.price-box {
+    border-radius: 8px;
+background: var(--dark-2, #2D2B29);
+padding: 32px;
+
+
+    
+}
+.color {color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.price {
+    margin-top: 14px;
+    color: #FFF;
+font-family: Rubik;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.desc {
+    margin-top: 14px;
+    max-width: 300px;
+    &::after{
+        content: '';
+        background: rgba(255, 255, 255, 0.15);
+margin-top: 35px;
+  
+  display: block;
+  
+  width: 299px;
+  height: 1px;
+
+    }
+}
+
+
+.silver-btn {
+    border-radius: 5px;
+border: 1px solid var(--primary, #ED9902);
+
+padding: 13px 18px 13px 18px;
+text-align: center;
+margin-top: 20px;
+
+
+}
+.link-silver {
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+max-width: 200px;
+
+display: inline-block;
+border-radius: 5px;
+border: 1px solid var(--primary, #ED9902);
+margin-top: 100px;
+padding: 13px 18px;
+}
+
+.link-gold{
+    margin-top: 100px;
+    display: inline-block;
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+max-width: 200px;
+
+border-radius: 5px;
+border: 1px solid var(--primary, #ED9902);
+background: var(--primary, #ED9902);
+padding: 13px 18px;
+}
+
+.place {
+    color: #A19A8B;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 34px;
+}
+.ready1 {
+   
+}
+.img {
+    
+}
+.place {
+    margin-left: 14px;
+    
+    padding: 0;
+}
+
+
+
+
+

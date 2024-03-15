@@ -1,0 +1,125 @@
+.customers {
+    
+    
+    
+    &::after{
+        content: '';
+        background: rgba(255, 255, 255, 0.15);
+    margin-top: 35px;
+  
+  display: block;
+  
+  width: 1140px;
+  height: 1px;
+  margin-bottom: 90px;
+        margin-top: 113px;
+
+    }
+    
+}
+.title {
+}
+.desc {
+}
+
+.price-box{
+   
+}
+
+.desc-customers{
+    color: var(--body, #9B968B);
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+max-width: 460px;
+}
+.bloks {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    
+}
+.coment-block {
+    border-radius: 8px;
+background: var(--dark-2, #2D2B29);
+
+
+
+}
+.col-4 {
+}
+
+.proba{
+    display: flex;
+}
+.main-comment {
+    color: var(--white, #FFF);
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+max-width: 493px;
+padding: 32px 32px 0px 32px;
+}
+.comment-img {
+    width: 100%;
+    position: absolute;
+    padding: 28px 50px 32px 32px;
+    
+   
+}
+.author {
+    display: flex;
+    flex-direction: column;
+    padding:32px 100px 36px 110px ;
+    
+    
+}
+.name {
+    color: var(--white, #FFF);
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 28.8px */
+}
+.job {
+    color: var(--primary, #ED9902);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+
+.gold-btn{
+    display:flex;
+
+
+
+    border-radius: 5px;
+border: 1px solid var(--primary, #ED9902);
+background: var(--primary, #ED9902);
+text-align: center;
+width: 126px;
+
+padding: 20px;
+
+
+
+}
+
+.silver-btn{
+    width: 100%;
+    padding: 100px;
+}

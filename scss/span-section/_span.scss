@@ -1,0 +1,117 @@
+.span {
+    margin-bottom: 50px;
+    margin-top: 180px;
+
+    
+    &::before{
+        content: '';
+        background: rgba(255, 255, 255, 0.15);
+    margin-top: 35px;
+  
+  display: block;
+  
+  width: 1140px;
+  height: 1px;
+  margin-bottom: 90px;
+        margin-top: 113px;
+
+    }
+}
+
+
+.title {
+}
+.desc {
+}
+.span{
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 110px;
+
+   
+
+    
+}
+.input {
+    
+    
+    padding-left: 16px;
+    height: 45px;
+    color: var(--body, #9B968B);
+    font-family: Rubik;
+    font-size: 14px;
+    
+    font-weight: 400;
+    line-height: normal;
+    width: 1140px;
+    background: var(--dark-1, #21201E);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-x:hidden;
+
+    @include mobile{
+       
+        max-width: 300px;
+
+       
+        
+    }
+
+    @include tablet{
+        width: 600px;
+    }
+
+    
+    
+    
+}
+
+
+.comment{
+    
+    padding-left: 16px;
+    height: 120px;
+    color: var(--body, #9B968B);
+    font-family: Rubik;
+    font-size: 14px;
+    
+    font-weight: 400;
+    line-height: normal;
+    width: 1140px;
+    background: var(--dark-1, #21201E);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    padding-bottom: 70px;
+    
+    word-wrap: break-word;
+    overflow-x:hidden;
+    
+    overflow: wrap;
+    @include mobile{
+       
+        max-width: 300px;
+
+       
+        
+    }
+
+    @include tablet{
+        width: 600px;
+    }
+
+}
+
+
+
+
+
+
+
+

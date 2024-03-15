@@ -1,0 +1,86 @@
+.footer {
+    background: var(--dark-2, #2D2B29);
+    display: flex;
+    justify-content: space-between;
+    height: 126px;
+    align-items: center;
+
+    
+    
+
+    
+    
+   
+  
+}
+
+.desc-span{
+    max-width: 500px;
+    color: var(--body, #9B968B);
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+margin-bottom: 40px;
+
+}
+.end-block {
+    padding-left: 20px;
+
+    @include tablet{
+        display: flex;
+        gap: 20px;
+        max-width: 150px;
+        
+    }
+
+    
+}
+.page {
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.social {
+
+    @include tablet{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    display: flex;
+    gap: 34px;
+    padding-right: 20px;
+    
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+a{
+    color: #FFF;
+
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.twitter {
+}
+.dribble {
+}
+.git {
+}
+.insta {
+}
+// 
+
